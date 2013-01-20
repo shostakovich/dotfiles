@@ -9,6 +9,7 @@ brew install cowsay
 brew install goaccess
 brew install imagemagick
 brew install mysql
+brew install mosh
 brew install node
 brew install phantomjs
 brew install rust
