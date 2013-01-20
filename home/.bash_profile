@@ -7,6 +7,8 @@ export EDITOR='vim'
 
 set -o vi
 
+source  ~/.bash_prompt
+
 # Aliases
 alias be='bundle exec'
 alias ber='be rake'
