@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Enough of this filthy internet" | cowsay -s
+sudo route -n delete default &> /dev/null
