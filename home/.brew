@@ -10,6 +10,10 @@ brew install goaccess
 brew install imagemagick
 brew install mysql
 brew install mobile-shell
+
+brew install legit
+legit install
+
 brew install node
 brew install phantomjs
 brew install rust
