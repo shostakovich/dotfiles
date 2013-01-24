@@ -16,6 +16,7 @@ alias c='clear'
 alias gl_tail='~/gltail/bin/gl_tail ~/helpster.yml'
 alias st='sudo tee %'
 alias fucking='sudo'
+alias mark='/Applications/Marked.app/Contents/Resources/mark'
 
 alias pong='ping -a -i 5' 
 

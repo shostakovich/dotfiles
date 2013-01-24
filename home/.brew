@@ -15,6 +15,7 @@ brew install mobile-shell
 brew install legit
 legit install
 
+brew install pv
 brew install node
 brew install phantomjs
 brew install rust
