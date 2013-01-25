@@ -18,5 +18,13 @@ alias st='sudo tee %'
 alias fucking='sudo'
 alias mark='/Applications/Marked.app/Contents/Resources/mark'
 
+function ban() {
+    if [ "`id -u`" == "0" ] ; then
+        iptables -A INPUT -s $1 -j DROP
+    else
+        sudo iptables -A INPUT -s $1 -j DROP
+    fi
+}
+
 alias deploy_staging='CHEF_ORG=hlpstr DEPLOY_BRANCH=`git symbolic-ref HEAD 2>/dev/null | cut -d "/" -f 3` cap staging deploy:migrations deploy:cleanup'
 alias deploy_production='CHEF_ORG=hlpstr cap production deploy:migrations deploy:cleanup'
