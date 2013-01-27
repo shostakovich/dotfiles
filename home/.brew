@@ -5,14 +5,16 @@ brew upgrade
 brew tap homebrew/versions
 
 brew install ack
-brew install aicuu
+brew install aiccu
 brew install bash
 brew install cowsay
 brew install csshX
 brew install goaccess
 brew install gtypist
 brew install gsl114
+brew install git
 brew install imagemagick
+brew install imagesnap
 brew install mercurial
 brew install mysql
 brew install mobile-shell
