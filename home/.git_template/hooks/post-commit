@@ -1,3 +1,3 @@
 #!/bin/sh
- 
-imagesnap -q $HOME/.gitshots/$(date -j -f "%a %b %d %T %Z %Y" "`date`" "+%s")_$(basename `pwd`).jpg &
+timestamp=$(date +%Y-%m-%d-%H%M%S)
+imagesnap -q $HOME/.gitshots/$timestamp.$(basename `pwd`).jpg &
