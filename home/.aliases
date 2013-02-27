@@ -18,6 +18,7 @@ alias st='sudo tee %'
 alias mark='/Applications/Marked.app/Contents/Resources/mark'
 alias pong='ping -a -i 5' 
 alias deploy_staging='CHEF_ORG=hlpstr DEPLOY_BRANCH=`git symbolic-ref HEAD 2>/dev/null | cut -d "/" -f 3` cap staging deploy:migrations deploy:cleanup'
+
 alias deploy_production='CHEF_ORG=hlpstr cap production deploy:migrations deploy:cleanup'
 alias ghost="sudo ghost import ~/.hosts"
 

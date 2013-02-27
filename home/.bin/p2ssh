@@ -1,0 +1,21 @@
+#!/bin/bash
+ 
+if [ -z "$1" ]; then
+  echo "USAGE: p2ssh <HOSTNAME>"
+  exit 5
+fi
+ 
+TARGET=$1
+P2_SSH_PORT=62000
+P2_DOMAIN=pointastic.de
+SSH_BIN=ssh
+SSH_ARGS=""
+P2_SSH_USER=rob
+if [ -n "$2" ]; then
+  P2_SSH_USER=$2
+  shift 2
+else
+  shift
+fi
+ 
+$SSH_BIN -A -p $P2_SSH_PORT $* "${P2_SSH_USER}@${TARGET}.${P2_DOMAIN}"
