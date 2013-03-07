@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+# Pre-push hook that rejects force pushes to master. 
+# Requires Git > 1.8.2 
+
+class PushRejecter
+  def run
+    if pushing_to?(:master) and forced_push?
+      reject
+    else
+      allow
+    end
+  end
+  
+  def pushing_to?(branch)
+    `git branch | grep "*" | sed "s/* //"`.match(branch.to_s)
+  end
+
+  def forced_push?
+    `ps -ocommand= -p #{Process.ppid}`.match(/force|pfush/)
+  end
+
+  def reject
+    puts "Force push to master rejected."
+    exit(1)
+  end
+
+  def allow
+    exit(0)
+  end
+end
+
+PushRejecter.new.run
