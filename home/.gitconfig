@@ -30,3 +30,5 @@
 	tool = Kaleidoscope
 [init]
 	templatedir = ~/.git_template
+[push]
+	default = current
