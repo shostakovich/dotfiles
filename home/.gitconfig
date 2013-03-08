@@ -7,6 +7,7 @@
   pfush = "push --force"
   l = "!source ~/.githelpers && pretty_git_log"
   d = 'difftool'
+  reopen = "reset --soft HEAD^"
 	switch = !legit switch \"$@\"
 	branches = !legit branches
 	sprout = !legit sprout \"$@\"
