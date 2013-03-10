@@ -25,6 +25,7 @@ legit install
 brew install pv
 brew install node
 brew install phantomjs
+brew install qt
 brew install rust
 brew install ssh-copy-id
 brew install tig
