@@ -1,12 +1,20 @@
 [user]
 	name = Robert Curth
 	email = robert@rocu.de
+
 [github]
 	user = shostakovich
+
 [alias]
   pfush = "push --force"
-  l = "!source ~/.githelpers && pretty_git_log"
+  l = "log"
   d = 'difftool'
+  br = branch
+  c = 'commit'
+  ch = 'checkout'
+  st = status --short
+  graph = log --graph
+  last = log -n 10
   reopen = "reset --soft HEAD^"
 	switch = !legit switch \"$@\"
 	branches = !legit branches
@@ -16,20 +24,33 @@
 	sync = !legit sync \"$@\"
 	publish = !legit publish \"$@\"
 	graft = !legit graft \"$@\"
+
+[format]
+  pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+  graph = true
+
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+
 [diff]
 	tool = Kaleidoscope
+
 [difftool]
 	prompt = false
+
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
+
 [mergetool]
 	prompt = false
+	keepBackup = true
+
 [merge]
 	tool = Kaleidoscope
+
 [init]
 	templatedir = ~/.git_template
+
 [push]
 	default = current

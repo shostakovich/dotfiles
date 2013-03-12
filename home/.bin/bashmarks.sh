@@ -50,7 +50,7 @@ function s {
 }
 
 # jump to bookmark
-function g {
+function go {
     check_help $1
     source $SDIRS
     cd "$(eval $(echo echo $(echo \$DIR_$1)))"
