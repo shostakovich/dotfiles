@@ -42,3 +42,7 @@ function g {
         git status --short --branch
     fi
 }
+
+function rag {
+  ag -G '\.rb|\.erb' $@
+}
