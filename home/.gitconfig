@@ -13,6 +13,7 @@
   c = 'commit'
   ch = 'checkout'
   st = status --short
+  hub = !github
   graph = log --graph
   last = log -n 10
   reopen = "reset --soft HEAD^"
