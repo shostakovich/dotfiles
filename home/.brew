@@ -9,12 +9,14 @@ brew install aiccu
 brew install bash
 brew install cowsay
 brew install csshX
+brew install elixir
 brew install goaccess
 brew install gtypist
 brew install gsl114
 brew install git
 brew install imagemagick
 brew install imagesnap
+sudo ln -s /usr/local/bin/imagesnap /usr/bin/
 brew install mercurial
 brew install mysql
 brew install mobile-shell
