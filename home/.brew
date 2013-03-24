@@ -9,6 +9,7 @@ brew install aiccu
 brew install bash
 brew install cowsay
 brew install csshX
+brew install erlang
 brew install elixir
 brew install goaccess
 brew install gtypist
