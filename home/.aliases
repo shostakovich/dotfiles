@@ -44,6 +44,10 @@ function g {
     fi
 }
 
+function cp_cask {
+ cp $(brew --prefix)/Library/Taps/phinze-cask/Casks/$@ ~/Ruby/homebrew-cask/Casks/
+}
+
 function cl () {
   if [ $# = 0 ]; then
     cd && ls -la
