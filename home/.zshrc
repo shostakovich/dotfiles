@@ -6,7 +6,7 @@ source ~/.exports
 source ~/.aliases
 source ~/.bin/bashmarks.sh
 
-plugins=(rails git osx ruby)
+plugins=(git osx)
 
 source $ZSH/oh-my-zsh.sh
 

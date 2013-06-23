@@ -10,6 +10,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'skalnik/vim-vroom'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'airblade/vim-gitgutter'
 
 filetype plugin indent on     " required!
 
