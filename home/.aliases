@@ -13,6 +13,10 @@ alias gl='g'
 alias gc='g c'
 alias gd='g d'
 alias ga='g add'
+alias grb='g rebase -i master'
+alias gct='git checkout -t'
+alias gpf='git pfush'
+alias gpp='git push && git pull-request'
 
 alias be='bundle exec'
 alias ber='be rake'
@@ -58,4 +62,12 @@ function cl () {
 
 function rag {
   ag -G '\.rb|\.erb' $@
+}
+
+cl()
+{
+   if [ -d "$1" ]; then
+      cd "$1"
+      ls -l
+   fi
 }
