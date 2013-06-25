@@ -78,5 +78,5 @@ brew cask install reggy
 brew cask install github
 brew cask install soulver
 brew cask install the-unarchiver
-
+brew cask install kaleidoscope
 brew cleanup
