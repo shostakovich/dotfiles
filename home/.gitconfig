@@ -57,6 +57,7 @@
 	default = current
 [pull]
   rebase = true
+	default = current
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
