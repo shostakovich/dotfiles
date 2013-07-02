@@ -15,7 +15,10 @@ Bundle 'airblade/vim-gitgutter'
 filetype plugin indent on     " required!
 
 let mapleader = ","
-map <C-n> :NERDTreeToggle<CR>
+map <F2> :NERDTreeToggle<CR>
+map <F3> :NERDTreeFind<CR>
+nnoremap <C-Up> gT
+nnoremap <C-Down> gt
 
 syntax on
 filetype on
