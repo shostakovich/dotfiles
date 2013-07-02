@@ -13,6 +13,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-rails'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on     " required!
 
