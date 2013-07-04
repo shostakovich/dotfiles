@@ -11,6 +11,7 @@ Bundle 'skalnik/vim-vroom'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'ervandew/supertab'
 
 filetype plugin indent on     " required!
 
