@@ -45,44 +45,6 @@ brew install vim
 brew install wget --enable-iri
 
 brew cask alfred link
-<<<<<<< HEAD
-brew cask install google-chrome
-brew cask install rubymine
-brew cask install charles
-brew cask install mou
-brew cask install sublime-text
-brew cask install dropbox
-brew cask install bit-torrent-sync
-brew cask install bartender
-brew cask install evernote
-brew cask install f-lux
-brew cask install fantastical
-brew cask install iterm2
-brew cask install textexpander
-brew cask install transmit
-brew cask install libre-office
-brew cask install little-snitch
-brew cask install macvim
-brew cask install omni-focus
-brew cask install processing
-brew cask install virtualbox
-brew cask install vlc
-brew cask install transmission
-brew cask install sequel-pro
-brew cask install alfred
-brew cask install anvil
-brew cask install firefox
-brew cask install one-password
-brew cask install viscosity
-brew cask install clean-my-mac
-brew cask install picturesque
-brew cask install tower
-brew cask install reggy
-brew cask install github
-brew cask install soulver
-brew cask install the-unarchiver
-brew cask install kaleidoscope
-=======
 brew cask install google-chrome --force
 brew cask install rubymine --force
 brew cask install charles --force
@@ -125,5 +87,6 @@ brew cask install clarify --force
 brew cask install github --force
 brew cask install money --force
 brew cask install adobe-air --force
-
+brew cask install vagrant --force
+brew cask install kaleidoscope --force
 brew cleanup
