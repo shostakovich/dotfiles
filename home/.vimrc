@@ -31,10 +31,22 @@ filetype plugin on
 set expandtab
 set tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
+
+" Split the way I would expect
 set splitright
 set splitbelow
 
-set number
+" Do not use the arrow keys any more
+nnoremap <up>    <nop>
+nnoremap <down>  <nop>
+nnoremap <left>  <nop>
+nnoremap <right> <nop>
+inoremap <up>    <nop>
+inoremap <down>  <nop>
+inoremap <left>  <nop>
+inoremap <right> <nop>
 
+" Make it look nice
+set number
 set background=dark
 colorscheme solarized
