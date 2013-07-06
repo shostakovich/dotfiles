@@ -46,6 +46,9 @@ inoremap <down>  <nop>
 inoremap <left>  <nop>
 inoremap <right> <nop>
 
+" Save this as root!
+cmap w!! w !sudo tee % >/dev/null
+
 " Make it look nice
 set number
 set background=dark
