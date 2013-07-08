@@ -15,6 +15,7 @@ alias gd='g d'
 alias ga='g add'
 alias grb='g rebase -i master'
 alias gct='git checkout -t'
+alias gcb='git checkout -b'
 alias gpf='git pfush'
 alias gpp='git push && git pull-request'
 
