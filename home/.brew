@@ -1,10 +1,11 @@
 #!/bin/bash
 
+sudo -v # ask for password only at the beginning
+
 brew update
 brew upgrade
 brew tap homebrew/versions
 brew tap phinze/homebrew-cask
-
 
 brew install ack
 brew install aiccu
@@ -26,6 +27,7 @@ brew install imagesnap
 sudo ln -s /usr/local/bin/imagesnap /usr/bin/
 brew install mercurial
 brew install mysql
+brew install most
 brew install mobile-shell
 
 brew install legit
