@@ -12,3 +12,4 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoreboth:erasedups
 export APPEND_HISTORY=1
 export PROMPT_COMMAND="history -a"
+export PAGER=most
