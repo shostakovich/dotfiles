@@ -14,12 +14,16 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/L9'
+Bundle 'vim-scripts/FuzzyFinder'
+Bundle 'bitc/vim-bad-whitespace'
 
 filetype plugin indent on     " required!
 
 let mapleader = ","
 map <F2> :NERDTreeToggle<CR>
 map <F3> :NERDTreeFind<CR>
+map <leader>t :FufFile<CR>
 nnoremap <C-Up> gT
 nnoremap <C-Down> gt
 
@@ -57,3 +61,4 @@ colorscheme solarized
 " Do not back up files in the local dir
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
+
