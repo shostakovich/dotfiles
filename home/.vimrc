@@ -50,6 +50,13 @@ inoremap <down>  <nop>
 inoremap <left>  <nop>
 inoremap <right> <nop>
 
+" Make arrowkey do something usefull, resize the viewports accordingly
+nnoremap <Left> :vertical resize +5<CR>
+nnoremap <Right> :vertical resize -5<CR>
+nnoremap <Up> :resize +5<CR>
+nnoremap <Down> :resize -5<CR>
+
+
 " Save this as root!
 cmap w!! w !sudo tee % >/dev/null
 
