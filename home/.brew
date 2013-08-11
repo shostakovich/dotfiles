@@ -82,7 +82,7 @@ brew cask install tower
 brew cask install reggy 
 brew cask install soulver 
 brew cask install the-unarchiver 
-brew cask install geekbench 
+brew cask install geek-bench 
 brew cask install self-control 
 brew cask install github 
 brew cask install money 
@@ -92,4 +92,5 @@ brew cask install kaleidoscope
 brew cask install trim-enabler
 brew cask install arq
 brew cask install skype
+brew cask install launch-control
 brew cleanup
