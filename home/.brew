@@ -93,4 +93,6 @@ brew cask install trim-enabler
 brew cask install arq
 brew cask install skype
 brew cask install launch-control
+brew cask install instacast
+brew cask install rubymine
 brew cleanup
