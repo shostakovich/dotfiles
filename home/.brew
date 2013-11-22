@@ -29,6 +29,7 @@ brew install mercurial
 brew install mysql
 brew install most
 brew install mobile-shell
+brew install v8
 
 brew install legit
 legit install
@@ -47,7 +48,6 @@ brew install vim
 brew install wget --enable-iri
 
 brew cask install rdio
-brew cask install anki
 brew cask install alfred
 brew cask alfred link
 brew cask install google-chrome 
@@ -62,17 +62,13 @@ brew cask install fantastical
 brew cask install iterm2 
 brew cask install textexpander  
 brew cask install transmit 
-brew cask install libre-office 
-brew cask install little-snitch 
 brew cask install macvim 
 brew cask install omni-focus 
-brew cask install processing 
 brew cask install virtualbox 
 brew cask install vlc 
 brew cask install transmission 
 brew cask install sequel-pro 
 brew cask install alfred 
-brew cask install anvil 
 brew cask install firefox 
 brew cask install one-password 
 brew cask install viscosity 
@@ -84,15 +80,13 @@ brew cask install soulver
 brew cask install the-unarchiver 
 brew cask install geek-bench 
 brew cask install self-control 
-brew cask install github 
-brew cask install money 
-brew cask install adobe-air 
 brew cask install vagrant 
 brew cask install kaleidoscope 
 brew cask install trim-enabler
-brew cask install arq
 brew cask install skype
 brew cask install launch-control
 brew cask install instacast
 brew cask install rubymine
+brew cask install macupdate-desktop
+brew cask install omnioutliner
 brew cleanup
