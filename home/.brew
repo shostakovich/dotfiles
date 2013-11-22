@@ -70,7 +70,7 @@ brew cask install transmission
 brew cask install sequel-pro 
 brew cask install alfred 
 brew cask install firefox 
-brew cask install one-password 
+brew cask install onepassword 
 brew cask install viscosity 
 brew cask install clean-my-mac 
 brew cask install picturesque 
