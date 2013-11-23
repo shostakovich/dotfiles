@@ -54,7 +54,7 @@ brew cask install google-chrome
 brew cask install charles 
 brew cask install mou 
 brew cask install dropbox 
-brew cask install bit-torrent-sync 
+brew cask install bittorrent-sync 
 brew cask install bartender 
 brew cask install evernote 
 brew cask install f-lux 
@@ -89,4 +89,6 @@ brew cask install instacast
 brew cask install rubymine
 brew cask install macupdate-desktop
 brew cask install omnioutliner
+brew cask install growlnotify
+brew cask install totalfinder
 brew cleanup
