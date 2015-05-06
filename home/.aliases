@@ -18,7 +18,7 @@ alias gct='git checkout -t'
 alias gcb='git checkout -b'
 alias gpf='git pfush'
 alias gpp='git push && git pull-request'
-
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias be='bundle exec'
 alias ber='be rake'
 alias rspec='be rspec'
@@ -32,6 +32,7 @@ alias deploy_staging='CHEF_ORG=hlpstr DEPLOY_BRANCH=`git symbolic-ref HEAD 2>/de
 alias download='aria2c -x 8'
 alias ghost="sudo ghost import ~/.hosts"
 alias aspell='aspell -d en -c'
+alias phpunit='vendor/bin/phpunit'
 
 function ban() {
     if [ "`id -u`" == "0" ] ; then
