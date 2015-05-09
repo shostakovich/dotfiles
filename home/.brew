@@ -32,7 +32,7 @@ brew install sqlite
 brew install the_silver_searcher
 brew install tmux
 brew install vim
-brew install wget --enable-iri
+brew install wget --with-iri
 
 brew install pgp
 
@@ -49,18 +49,19 @@ brew cask install doxie
 brew cask install iterm2 
 brew cask install textexpander  
 brew cask install transmit 
-brew cask install omni-focus 
+brew cask install omnifocus 
 brew cask install virtualbox 
 brew cask install vlc
 brew cask install ynab
 brew cask install sequel-pro 
-brew cask install onepassword 
+brew cask install 1password 
 brew cask install viscosity 
-brew cask install clean-my-mac 
+brew cask install cleanmymac 
 brew cask install picturesque 
 brew cask install tower
 brew cask install reggy 
-brew cask install soulver 
+brew cask install soulver
+brew cask install sublime
 brew cask install the-unarchiver 
 brew cask install vagrant 
 brew cask install rubymine
@@ -68,4 +69,7 @@ brew cask install phpstorm
 brew cask install macupdate-desktop
 brew cask install omnioutliner
 brew cask install totalfinder
+brew cask install wesnoth
+brew cask install mailbox
+brew cask install moneymoney
 brew cleanup
