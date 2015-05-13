@@ -7,13 +7,12 @@ brew update
 brew upgrade --all
 brew tap homebrew/dupes
 brew tap homebrew/versions
-brew tap phinze/homebrew-cask
 
 brew install ack
 brew install aiccu
 brew install aspell
 brew install bash
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 brew install cowsay
 brew install csshX
 brew install goaccess
@@ -51,6 +50,7 @@ brew cask install flux
 brew cask install folx
 brew cask install doxie
 brew cask install iterm2 
+brew cask install skitch
 brew cask install textexpander  
 brew cask install transmit 
 brew cask install omnifocus 
