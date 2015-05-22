@@ -78,4 +78,8 @@ brew cask install wesnoth
 brew cask install mailbox
 brew cask install moneymoney
 brew cask install fitbit-connect
+brew cask install omnigraffle
+brew cask install calibre
+brew cask install sublime-text
+brew cask install audiobookbinder
 brew cleanup
