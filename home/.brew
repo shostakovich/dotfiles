@@ -82,4 +82,5 @@ brew cask install omnigraffle
 brew cask install calibre
 brew cask install sublime-text
 brew cask install audiobookbinder
+brew cask install libreoffice
 brew cleanup
