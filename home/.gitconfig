@@ -64,3 +64,5 @@
 
 [diff "sql_schema"]
   textconv = sed -e '/^) ENGINE=InnoDB/s/AUTO_INCREMENT=[0-9]* //'
+[core]
+	autocrlf = input
