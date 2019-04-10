@@ -8,5 +8,3 @@ source ~/.aliases
 source ~/.bin/bashmarks.sh
 
 ssh-add ~/.ssh/id_dsa
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-eval "$(rbenv init -)"
