@@ -6,5 +6,3 @@ source ~/.bash_prompt
 source ~/.aliases
 
 source ~/.bin/bashmarks.sh
-
-ssh-add ~/.ssh/id_dsa

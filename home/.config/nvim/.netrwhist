@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/etc/resilio-sync'
 let g:netrw_dirhist_2='/home/shostakovich/RubymineProjects/webgate'
 let g:netrw_dirhist_3='/home/shostakovich/.config/nvim'
+let g:netrw_dirhist_4='/home/shostakovich'
